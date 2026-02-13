@@ -13,6 +13,8 @@ const ContactSection = () => {
         <p className="text-muted-foreground font-mono text-sm leading-relaxed mb-10">
           Whether you have a project in mind or just want to say hello, 
           my inbox is always open.
+          <br />
+          Phone No: 9567283578
         </p>
 
         {/* Social links */}
@@ -21,7 +23,6 @@ const ContactSection = () => {
             { label: "Email", href: "mailto:arathysppy.2004@gmail.com" },
             { label: "GitHub", href: "https://github.com/s-Arathy" },
             { label: "LinkedIn", href: "https://www.linkedin.com/in/arathy-s-a81796261/" },
-            { label: "Phone No: 9567283578" },
           ].map((link) => (
             <a
               key={link.label}
