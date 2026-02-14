@@ -50,7 +50,7 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-8 flex items-center justify-center gap-6 font-mono text-xs text-muted-foreground">
-            <span className="uppercase tracking-widest">Est. 2020</span>
+            <span className="uppercase tracking-widest">Est. 2022</span>
             <span>·</span>
             <span className="uppercase tracking-widest">Open Daily</span>
           </div>
